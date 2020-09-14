@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "build": "node ace build",
-    "start": "node ace serve --watch",
-    "postinstall": "node ace build"
+    "start": "node ace serve --watch"
   },
   "devDependencies": {
     "@adonisjs/assembler": "^2.1.5",
@@ -29,6 +28,7 @@
     "source-map-support": "^0.5.19"
   },
   "engines": {
-    "node": "12.x"
+    "node": "12.x",
+    "npm": "6.x"
   }
 }
